@@ -1,0 +1,8 @@
+/* ============================================================
+   Designjoy — Font faces
+   Figtree is the workhorse (Google Fonts). The editorial italic
+   accent ("for everyone", "should've") is substituted with
+   Newsreader italic — see readme CAVEATS; swap for the licensed
+   face when available.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap');

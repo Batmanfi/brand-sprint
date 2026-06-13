@@ -1,0 +1,44 @@
+/* ============================================================
+   Designjoy — Typography tokens
+   Figtree everywhere, set tight and Medium-heavy on display.
+   Editorial italic serif is reserved for a single accented word.
+   ============================================================ */
+:root {
+  /* —— Families —— */
+  --font-sans: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif; /* @kind font */
+  --font-accent: 'Newsreader', Georgia, 'Times New Roman', serif; /* italic accent only @kind font */
+
+  /* —— Weights —— */
+  --fw-regular: 400; /* @kind font */
+  --fw-medium: 500;  /* @kind font */ /* Designjoy's default display weight */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold: 700; /* @kind font */
+  --fw-black: 800;   /* @kind font */ /* logo wordmark */
+
+  /* —— Display / heading scale (tight tracking, ~0.95 line-height) —— */
+  --fs-display: 82px;   /* hero H1 */
+  --fs-h1: 64px;
+  --fs-h2: 50px;        /* section headers */
+  --fs-h3: 36px;
+  --fs-title: 24px;     /* card titles */
+  --fs-lead: 20px;      /* lead paragraph */
+  --fs-body: 16px;
+  --fs-base: 15px;      /* default UI text / buttons */
+  --fs-small: 14px;     /* meta, captions */
+
+  --lh-display: 0.95; /* @kind other */
+  --lh-tight: 1.05; /* @kind other */
+  --lh-snug: 1.2; /* @kind other */
+  --lh-body: 1.5; /* @kind other */
+
+  --ls-display: -3px;   /* hero @kind other */
+  --ls-tight: -1.5px;   /* section headers @kind other */
+  --ls-snug: -0.4px; /* @kind other */
+  --ls-normal: 0; /* @kind other */
+
+  /* —— Semantic roles —— */
+  --text-display-family: var(--font-sans);
+  --text-display-weight: var(--fw-medium);
+  --text-body-family: var(--font-sans);
+}

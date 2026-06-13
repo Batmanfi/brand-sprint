@@ -1,0 +1,29 @@
+/* ============================================================
+   Designjoy — Spacing & radius tokens
+   Roomy, 8px-based rhythm with generous section padding and
+   the brand's signature large card radii.
+   ============================================================ */
+:root {
+  /* —— Spacing scale (8px base) —— */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 60px;
+  --space-9: 80px;
+  --space-10: 120px;   /* hero block vertical padding */
+
+  /* —— Container —— */
+  --container-max: 1200px;
+  --container-gutter: 40px;
+
+  /* —— Radii —— */
+  --radius-sm: 8px;     /* buttons, inputs, small links */
+  --radius-md: 12px;
+  --radius-lg: 19px;    /* the signature card radius */
+  --radius-xl: 28px;
+  --radius-pill: 999px; /* badges, "Start today" chips */
+}

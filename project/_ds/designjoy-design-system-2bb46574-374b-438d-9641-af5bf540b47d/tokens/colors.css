@@ -1,0 +1,52 @@
+/* ============================================================
+   Designjoy — Color tokens
+   Warm off-white canvas, true black ink, and a deck of
+   saturated "joy" accents borrowed from the gradient cards.
+   ============================================================ */
+:root {
+  /* —— Neutrals / canvas —— */
+  --dj-black: #000000;
+  --dj-white: #ffffff;
+  --dj-canvas: #ede6e8;        /* warm pink-grey page background */
+  --dj-canvas-2: #ece6e8;
+  --dj-hairline: #ddced3;      /* light dusty-rose divider / border */
+  --dj-muted: #99948f;         /* secondary / supporting text */
+
+  /* —— Dark surfaces (cards, code, footer) —— */
+  --dj-ink-900: #000000;
+  --dj-ink-800: #1b1b1b;
+  --dj-ink-700: #292929;
+  --dj-ink-600: #2c2c2c;
+  --dj-ink-500: #444444;       /* top of the glossy-black button gradient */
+
+  /* —— Joy accents (the gradient-card palette) —— */
+  --dj-orange: #ff5a00;        /* primary brand accent */
+  --dj-orange-soft: #ff8e50;
+  --dj-yellow: #ffd817;
+  --dj-yellow-2: #ffdb01;
+  --dj-pink: #ff0084;          /* magenta */
+  --dj-blue: #0000fe;          /* electric blue */
+  --dj-blue-2: #0813ff;
+  --dj-green: #2be86b;         /* spring green */
+
+  /* —— Alpha helpers (glints + scrims on dark) —— */
+  --dj-white-a30: rgba(255, 255, 255, 0.3);
+  --dj-white-a50: rgba(255, 255, 255, 0.5);
+  --dj-white-a11: rgba(255, 255, 255, 0.11);
+  --dj-white-a62: rgba(255, 255, 255, 0.62);
+  --dj-black-a20: rgba(0, 0, 0, 0.2);
+  --dj-black-a30: rgba(0, 0, 0, 0.3);
+
+  /* —— Semantic aliases —— */
+  --surface-page: var(--dj-canvas);
+  --surface-card: var(--dj-white);
+  --surface-dark: var(--dj-black);
+  --text-strong: var(--dj-black);
+  --text-body: var(--dj-black);
+  --text-muted: var(--dj-muted);
+  --text-on-dark: var(--dj-white);
+  --text-on-dark-muted: rgba(255, 255, 255, 0.53);
+  --border-hairline: var(--dj-hairline);
+  --accent: var(--dj-orange);
+  --accent-contrast: var(--dj-white);
+}

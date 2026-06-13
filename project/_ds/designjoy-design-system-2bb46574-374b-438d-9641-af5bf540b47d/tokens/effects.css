@@ -1,0 +1,31 @@
+/* ============================================================
+   Designjoy — Effects: shadows, glossy buttons, card gradients
+   The glossy-black button (top-lit bevel + drop shadow) and the
+   fluid colour-blob card fills are the brand's signature surfaces.
+   ============================================================ */
+:root {
+  /* —— Elevation —— */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 18px 40px -16px rgba(0, 0, 0, 0.28);
+  --shadow-float: 0 24px 60px -20px rgba(0, 0, 0, 0.45);
+
+  /* —— Glossy black button: top-lit bevel —— */
+  --gloss-black: linear-gradient(180deg, #444444 0%, #000000 100%); /* @kind color */
+  --gloss-black-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3),
+    inset 1px 1px 0.25px 0 rgba(255, 255, 255, 0.3),
+    inset 0 2px 1px 0 rgba(255, 255, 255, 0.5); /* @kind shadow */
+  --gloss-inset-dark: inset 0 2px 1px 0 rgba(95, 95, 95, 0.5),
+    inset 1px 1px 0.2px 0 rgba(255, 255, 255, 0.62); /* @kind shadow */
+
+  /* —— Signature fluid-blob card fills (the Subscribe/Request/Receive trio) —— */
+  --grad-yellow: radial-gradient(120% 120% at 20% 0%, #ffd817 0%, #ff5a00 45%, #7a1bd6 100%); /* @kind color */
+  --grad-blue: radial-gradient(120% 120% at 80% 10%, #ff0084 0%, #4b1bff 45%, #0000fe 100%); /* @kind color */
+  --grad-orange: radial-gradient(120% 120% at 70% 10%, #ff8e50 0%, #ff5a00 40%, #ff0084 100%); /* @kind color */
+  --grad-join: linear-gradient(160deg, #b06bff 0%, #6a30ff 38%, #0a16ff 100%); /* @kind color */
+
+  /* —— Transitions —— */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur-base: 200ms; /* @kind other */
+  --dur-slow: 320ms; /* @kind other */
+}

@@ -1,0 +1,61 @@
+/* ============================================================
+   Designjoy — base element styles & a few brand utilities
+   ============================================================ */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  color: var(--text-body);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Editorial italic accent — drop on a single emphasised word */
+.dj-accent {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: var(--fw-regular);
+  letter-spacing: 0;
+}
+
+/* Display heading helper */
+.dj-display {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  color: var(--text-strong);
+  margin: 0;
+}
+
+/* Section header helper */
+.dj-h2 {
+  font-family: var(--font-sans);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-h2);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-tight);
+  color: var(--text-strong);
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* The Designjoy wordmark lock-up (smile mark + text) */
+.dj-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: var(--fw-black);
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  color: var(--dj-black);
+  text-decoration: none;
+}
+.dj-logo svg, .dj-logo img { width: 24px; height: auto; display: block; }
